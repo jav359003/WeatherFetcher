@@ -9,9 +9,9 @@ from email.message import EmailMessage
 
 
 
-API_KEY = "345a4720d2e677f200498affd54c6224"
+API_KEY = ""
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
-phone_number = '+18084699684'
+phone_number = ''
 
 
 def get_location():
@@ -37,7 +37,7 @@ def sendmail( to, subject, body):
     message['to'] = to
     message.set_content(body)
 
-    user = 'javybaby494@gmail.com'
+    user = ''
     message['from'] = user
     password = 'nkmmnjmnubwevosy'
 
