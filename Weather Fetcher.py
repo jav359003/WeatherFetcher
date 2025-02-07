@@ -39,7 +39,7 @@ def sendmail( to, subject, body):
 
     user = ''
     message['from'] = user
-    password = 'nkmmnjmnubwevosy'
+    password = ''
 
     server = smtplib.SMTP("smtp.gmail.com", 587)
     server.starttls()
